@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container{
+
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(Images/886685.jpg) ;
+	background-position: center;
+	background-size: cover;
+	padding-right: 8%; 
+	padding-left: 8%;
+	box-sizing: border-box;
+}
+.bar{
+	height: 12%;
+	display: flex;
+	align-items: :center;
+}
+.CM{
+	width: 170px;
+	height: 70px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+	margin-left: 30px;
+	display: inline-block;
+}
+ul{
+	margin-left: 60px;
+	display: inline-block;
+}
+li{
+    margin-left: 60px;
+	display: inline-block;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-size:  20px;
+	font-weight: lighter;
+}
+.Link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: white;
+	transition: width .3s;
+}
+.Link:hover::after{
+	width: 100%;
+	transition:  width .3s;
+}
+
+.row{
+	display: flex;
+	height: 80%;
+	align-items: center;
+}
+.column{
+	flex-basis: 50%;
+}
+h1{
+	color: white;
+	font-size: 65px;
+}
+p{
+	color: white;
+	font-size: 13px;
+}
+
+.ul {
+    padding:0px;
+    margin: 0px;
+    display: flex; 
+}
+.ul .li {
+	list-style: none;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 50px;
+ 	margin:20px;
+ 	font-weight: bold;
+	padding: 13px;
+}
+.ul .li .a{
+	padding: 15px 35px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	transition: all 0.5s ease-in-out;
+	color:white;
+}
+.ul .li:hover{
+	box-shadow: 0px 0px 10px white;
+	background-color: rgb(255,255,255,0.2);
+}
+

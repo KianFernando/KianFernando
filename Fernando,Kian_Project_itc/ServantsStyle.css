@@ -1,0 +1,178 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container{
+
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(Images/886685.jpg) ;
+	background-position: center;
+	background-size: cover;
+	padding-right: 8%; 
+	padding-left: 8%;
+	box-sizing: border-box;
+}
+.bar{
+	height: 12%;
+	display: flex;
+	align-items: :center;
+}
+.CM{
+	width: 170px;
+	height: 70px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+	margin-left: 30px;
+	display: inline-block;
+}
+ul{
+	margin-left: 60px;
+	display: inline-block;
+}
+li{
+    margin-left: 60px;
+	display: inline-block;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-size:  20px;
+}
+.Link::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .3s;
+}
+.Link:hover::after{
+  width: 100%;
+  transition:  width .3s;
+}
+
+.container {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.border{
+	margin-top: 50px;
+}
+.bgimg, .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-12, .bgimg-13, .bgimg-14{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg{
+   background-image: url("Images/bgimg.png");
+  min-height: 400px;
+}
+.bgimg-1 {
+  background-image: url("Images/saber.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("Images/archer.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("Images/lancer.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("Images/rider.jpg");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("Images/assassin.jpg");
+  min-height: 400px;
+}
+
+.bgimg-6 {
+  background-image: url("Images/caster.jpg");
+  min-height: 400px;
+}
+
+.bgimg-7 {
+  background-image: url("Images/berserker.jpg");
+  min-height: 400px;
+}
+.bgimg-8 {
+  background-image: url("Images/ruler.jpg");
+  min-height: 400px;
+}
+
+.bgimg-9 {
+  background-image: url("Images/avenger.jpg");
+  min-height: 400px;
+}
+
+.bgimg-10 {
+  background-image: url("Images/alterego.jpg");
+  min-height: 400px;
+}
+
+.bgimg-11 {
+  background-image: url("Images/foreiner.jpg");
+  min-height: 400px;
+}
+
+.bgimg-12 {
+  background-image: url("Images/mooncancer.jpg");
+  min-height: 400px;
+}
+
+.bgimg-13 {
+  background-image: url("Images/shielder.png");
+  min-height: 400px;
+}
+
+.bgimg-14 {
+  min-height: 400px;
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg, .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-12, .bgimg-13, .bgimg-14{
+        background-attachment: scroll;
+    }
+}
